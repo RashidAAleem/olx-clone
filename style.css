@@ -1,0 +1,34 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.firstNavbar {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left by default */
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.firstNavbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Space between items */
+}
+
+.firstNavbar li {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+  /* Responsive Behavior */
+  @media (max-width: 768px) {
+    .firstNavbar {
+        justify-content: center; /* Center items on small screens */
+    }
+}
