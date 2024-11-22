@@ -37,7 +37,7 @@ var cardData = [
     { title: "Rs 12000", text: "Card number 9 with some simple text content.", imgSrc: "images/car1.jpg", createdAt: new Date(new Date() - 30 * 60 * 1000) },
     { title: "Rs 12000", text: "This is the tenth card with placeholder text.", imgSrc: "images/car2.jpg", createdAt: new Date(new Date() - 35 * 60 * 1000) },
     { title: "Rs 12000", text: "Card 11 text to demonstrate varied content.", imgSrc: "images/car3.jpg", createdAt: new Date(new Date() - 40 * 60 * 1000) },
-    { title: "Rs 12000", text: "Final card with some interesting placeholder content.", imgSrc: "images/Car4.jpg", createdAt: new Date(new Date() - 45 * 60 * 1000) }
+    { title: "Rs 12000", text: "Final card with some interesting placeholder content.", imgSrc: "images/car4.jpg", createdAt: new Date(new Date() - 45 * 60 * 1000) }
 ];
 
 // Populate cards with the relative time in 'updated' field
